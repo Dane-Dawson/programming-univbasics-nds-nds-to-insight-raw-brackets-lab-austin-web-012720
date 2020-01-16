@@ -15,7 +15,7 @@ def directors_totals(nds)
      movie_index += 1
      
    end
-   result.push "/'#{directors_database[row_index]}=>#{director_total}/'"
+   result[row_index] = "/'#{directors_database[row_index]}=>#{director_total}/'"
    row_index += 1
  end
   #result = {
